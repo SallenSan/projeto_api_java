@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin: 40px 0 40px 0;
+
+}
+
+body{
+    background-image:linear-gradient(to right,#025E73, #A5A692);
+
+
+}
+
+.box, form{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 250px;
+    height: 30px;
+    border-radius: 25px;
+    padding: 0 15px 0 15px;
+}
+
+button{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+}
+
