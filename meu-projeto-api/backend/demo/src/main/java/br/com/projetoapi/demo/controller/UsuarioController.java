@@ -17,7 +17,7 @@ public class UsuarioController{
     private InterfaceUsuario dao;
     @GetMapping
     public ResponseEntity<List<Usuario>> usuarioList(){
-        List <Usuario> usuarioList = (List<Usuario>) dao.findAll();
+        List <Usuario> usuarioList = dao.findAll();
         return ResponseEntity.status(200).body(usuarioList);
     }
 
